@@ -3,6 +3,7 @@ import blog from '../assets/blog.png'
 import marketplace1 from '../assets/marketplace1.png'
 import connectHub from '../assets/connectHub.png'
 import musicimg from '../assets/musicimg.png'
+import Manager from '../assets/Manager.png'
 
 
 export const projects=[
@@ -33,6 +34,13 @@ export const projects=[
         description:'FootNews Hub is a cutting-edge React application powered by Docker, delivering the latest and most engaging football-related news',
         image: ball,
         link: "https://github.com/Vipul-Vermaa/reactApp_withDocker",
+      },
+    {
+        title: "Task Manger ",
+        subtitle: " MERN Stack ",
+        description:'This is a simple Task Manager application with a frontend and backend component. It allows users to manage their tasks efficiently.',
+        image: Manager,
+        link: "https://github.com/Vipul-Vermaa/Task_manager",
       },
     {
         title: "Basic Music Player",
