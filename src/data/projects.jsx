@@ -4,6 +4,7 @@ import marketplace1 from '../assets/marketplace1.png'
 import connectHub from '../assets/connectHub.png'
 import musicimg from '../assets/musicimg.png'
 import Manager from '../assets/Manager.png'
+import dashboard from '../assets/dashboard.png'
 
 
 export const projects=[
@@ -20,6 +21,13 @@ export const projects=[
         description:'ConnectHub API powers a sophisticated social networking platform, enabling users to build meaningful connections. Seamlessly handling user profiles, posts, and an intuitive following mechanism.',
         image: connectHub,
         link: "https://github.com/Vipul-Vermaa/Social-Networking-API-",
+      },
+    {
+        title: "Weather Dashboard ",
+        subtitle: "React.js , Firebase ",
+        description:'This is a weather application that uses Firebase for authentication and OpenWeatherMap API to fetch weather data. The app has registration and login functionality and displays home only if the user is logged in.',
+        image: dashboard,
+        link: "https://github.com/Vipul-Vermaa/Weather-Dashboard",
       },
     {
         title: "Blogify ",
