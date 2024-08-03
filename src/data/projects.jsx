@@ -5,6 +5,7 @@ import connectHub from '../assets/connectHub.png'
 import musicimg from '../assets/musicimg.png'
 import Manager from '../assets/Manager.png'
 import dashboard from '../assets/dashboard.png'
+import stream from '../assets/stream.png'
 
 
 export const projects=[
@@ -13,14 +14,14 @@ export const projects=[
         subtitle: "MERN Stack",
         description:'An innovative online platform designed to facilitate,buying and selling of various projects within a user-friendly and secure environment. Leveraging full-stack technology, this empowers users to browse, purchase, and sell a wide range of projects.',
         image: marketplace1,
-        link: "https://github.com/Vipul-Vermaa?tab=repositories",
+        link: "https://github.com/Vipul-Vermaa/backend_marketplace",
       },
     {
         title: "ConnectHub API ",
-        subtitle: "Node.js ,MongoDB ",
+        subtitle: "React.js,Typescript.js, Node.js ,MongoDB ",
         description:'ConnectHub API powers a sophisticated social networking platform, enabling users to build meaningful connections. Seamlessly handling user profiles, posts, and an intuitive following mechanism.',
         image: connectHub,
-        link: "https://github.com/Vipul-Vermaa/Social-Networking-API-",
+        link: "https://github.com/Vipul-Vermaa/Connect__hub",
       },
     {
         title: "Weather Dashboard ",
@@ -28,6 +29,13 @@ export const projects=[
         description:'This is a weather application that uses Firebase for authentication and OpenWeatherMap API to fetch weather data. The app has registration and login functionality and displays home only if the user is logged in.',
         image: dashboard,
         link: "https://github.com/Vipul-Vermaa/Weather-Dashboard",
+      },
+    {
+        title: "Live_streaming_server ",
+        subtitle: "React.js,Node.js,Express.js,Socket.io,Docker,NGINX",
+        description:'This project sets up a live streaming server with authentication, Prometheus monitoring, and a chat feature using Docker. It includes the backend setup using Express.js, WebSocket, and Socket.io for live interactions, and integrates Prometheus for monitoring and logging. ',
+        image: stream,
+        link: "https://github.com/Vipul-Vermaa/live_streaming_server",
       },
     {
         title: "Blogify ",
