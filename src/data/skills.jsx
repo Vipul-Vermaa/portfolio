@@ -10,6 +10,7 @@ export const skills = [
     {name:'Docker'},
     {name:'Full Stack'},
     {name:'Firebase'},
+    {name:'TypeScript'},
 ];
         
     
